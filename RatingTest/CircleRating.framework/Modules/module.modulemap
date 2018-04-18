@@ -1,0 +1,11 @@
+framework module CircleRating {
+  umbrella header "CircleRating.h"
+
+  export *
+  module * { export * }
+}
+
+module CircleRating.Swift {
+    header "CircleRating-Swift.h"
+    requires objc
+}
