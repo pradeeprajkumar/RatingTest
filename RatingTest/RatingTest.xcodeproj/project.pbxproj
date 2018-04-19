@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2884A6A52087B472005CB13F /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2884A6A42087B472005CB13F /* CircleRating.framework */; };
-		2884A6A72087B479005CB13F /* CircleRating.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2884A6A42087B472005CB13F /* CircleRating.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2851900720887F900002DF7D /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2851900620887F8F0002DF7D /* CircleRating.framework */; };
+		28519009208882F10002DF7D /* CircleRating.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2851900620887F8F0002DF7D /* CircleRating.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28FB1DF62087A92400E642AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DF52087A92400E642AD /* AppDelegate.swift */; };
 		28FB1DF82087A92400E642AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DF72087A92400E642AD /* ViewController.swift */; };
 		28FB1DFB2087A92400E642AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DF92087A92400E642AD /* Main.storyboard */; };
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2884A6A72087B479005CB13F /* CircleRating.framework in Embed Frameworks */,
+				28519009208882F10002DF7D /* CircleRating.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2884A6A42087B472005CB13F /* CircleRating.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CircleRating.framework; sourceTree = "<group>"; };
+		2851900620887F8F0002DF7D /* CircleRating.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CircleRating.framework; sourceTree = "<group>"; };
 		28FB1DF22087A92400E642AD /* RatingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FB1DF52087A92400E642AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FB1DF72087A92400E642AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2884A6A52087B472005CB13F /* CircleRating.framework in Frameworks */,
+				2851900720887F900002DF7D /* CircleRating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		28FB1DE92087A92400E642AD = {
 			isa = PBXGroup;
 			children = (
-				2884A6A42087B472005CB13F /* CircleRating.framework */,
+				2851900620887F8F0002DF7D /* CircleRating.framework */,
 				28FB1DF42087A92400E642AD /* RatingTest */,
 				28FB1E092087A92500E642AD /* RatingTestTests */,
 				28FB1E142087A92500E642AD /* RatingTestUITests */,
@@ -450,7 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTF6WVY5PJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RatingTest",
@@ -461,8 +463,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.happay.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,7 +476,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTF6WVY5PJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RatingTest",
@@ -483,8 +489,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.happay.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
