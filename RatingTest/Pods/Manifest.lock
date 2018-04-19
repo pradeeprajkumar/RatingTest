@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   CircleRating:
-    :commit: f5879b69341a1dde82bbac4a921ec1c864ccf08c
+    :commit: 957c9e79237b56368b03c283ae9ca89241a88a81
     :git: https://github.com/pradeeprajkumar/CircleRating.git
 
 SPEC CHECKSUMS:
