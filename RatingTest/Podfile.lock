@@ -1,0 +1,21 @@
+PODS:
+  - CircleRating (1.0)
+
+DEPENDENCIES:
+  - CircleRating (from `https://github.com/pradeeprajkumar/CircleRating.git`)
+
+EXTERNAL SOURCES:
+  CircleRating:
+    :git: https://github.com/pradeeprajkumar/CircleRating.git
+
+CHECKOUT OPTIONS:
+  CircleRating:
+    :commit: f5879b69341a1dde82bbac4a921ec1c864ccf08c
+    :git: https://github.com/pradeeprajkumar/CircleRating.git
+
+SPEC CHECKSUMS:
+  CircleRating: f13f99ecaaddb84f5ad7f4652915df57c1a67eb9
+
+PODFILE CHECKSUM: 7b77bd5c0bec7105c3690280760bb8bda19d17b5
+
+COCOAPODS: 1.5.0

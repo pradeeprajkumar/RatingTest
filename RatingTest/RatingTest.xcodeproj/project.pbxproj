@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2851900720887F900002DF7D /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2851900620887F8F0002DF7D /* CircleRating.framework */; };
-		28519009208882F10002DF7D /* CircleRating.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2851900620887F8F0002DF7D /* CircleRating.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28FB1DF62087A92400E642AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DF52087A92400E642AD /* AppDelegate.swift */; };
 		28FB1DF82087A92400E642AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DF72087A92400E642AD /* ViewController.swift */; };
 		28FB1DFB2087A92400E642AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DF92087A92400E642AD /* Main.storyboard */; };
@@ -16,6 +14,7 @@
 		28FB1E002087A92500E642AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DFE2087A92500E642AD /* LaunchScreen.storyboard */; };
 		28FB1E0B2087A92500E642AD /* RatingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1E0A2087A92500E642AD /* RatingTestTests.swift */; };
 		28FB1E162087A92500E642AD /* RatingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1E152087A92500E642AD /* RatingTestUITests.swift */; };
+		CB58D611CF4C51A5664B92EF /* Pods_RatingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D26A3952ECA13BA832901A5 /* Pods_RatingTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				28519009208882F10002DF7D /* CircleRating.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +48,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2851900620887F8F0002DF7D /* CircleRating.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CircleRating.framework; sourceTree = "<group>"; };
 		28FB1DF22087A92400E642AD /* RatingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FB1DF52087A92400E642AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FB1DF72087A92400E642AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +61,9 @@
 		28FB1E112087A92500E642AD /* RatingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FB1E152087A92500E642AD /* RatingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTestUITests.swift; sourceTree = "<group>"; };
 		28FB1E172087A92500E642AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D26A3952ECA13BA832901A5 /* Pods_RatingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560C965A2E98C3DD5CD23672 /* Pods-RatingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatingTest/Pods-RatingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA540EA292497D388B64081 /* Pods-RatingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RatingTest/Pods-RatingTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2851900720887F900002DF7D /* CircleRating.framework in Frameworks */,
+				CB58D611CF4C51A5664B92EF /* Pods_RatingTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +95,12 @@
 		28FB1DE92087A92400E642AD = {
 			isa = PBXGroup;
 			children = (
-				2851900620887F8F0002DF7D /* CircleRating.framework */,
 				28FB1DF42087A92400E642AD /* RatingTest */,
 				28FB1E092087A92500E642AD /* RatingTestTests */,
 				28FB1E142087A92500E642AD /* RatingTestUITests */,
 				28FB1DF32087A92400E642AD /* Products */,
+				E15DA86E63BDDA19BE0F00B2 /* Pods */,
+				991CC8D6912186F7D933924C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,23 @@
 			path = RatingTestUITests;
 			sourceTree = "<group>";
 		};
+		991CC8D6912186F7D933924C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D26A3952ECA13BA832901A5 /* Pods_RatingTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15DA86E63BDDA19BE0F00B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560C965A2E98C3DD5CD23672 /* Pods-RatingTest.debug.xcconfig */,
+				DCA540EA292497D388B64081 /* Pods-RatingTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,10 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FB1E1A2087A92500E642AD /* Build configuration list for PBXNativeTarget "RatingTest" */;
 			buildPhases = (
+				97E21F2D30612C06FBE78D43 /* [CP] Check Pods Manifest.lock */,
 				28FB1DEE2087A92400E642AD /* Sources */,
 				28FB1DEF2087A92400E642AD /* Frameworks */,
 				28FB1DF02087A92400E642AD /* Resources */,
 				28FB1E272087A9E200E642AD /* Embed Frameworks */,
+				2A7122BE6BB0ECF12821029D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +290,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7122BE6BB0ECF12821029D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RatingTest/Pods-RatingTest-frameworks.sh",
+				"${PODS_ROOT}/CircleRating/CircleRating.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleRating.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatingTest/Pods-RatingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E21F2D30612C06FBE78D43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RatingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28FB1DEE2087A92400E642AD /* Sources */ = {
@@ -448,6 +507,7 @@
 		};
 		28FB1E1B2087A92500E642AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560C965A2E98C3DD5CD23672 /* Pods-RatingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -459,10 +519,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RatingTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happay.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -474,6 +531,7 @@
 		};
 		28FB1E1C2087A92500E642AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA540EA292497D388B64081 /* Pods-RatingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -485,10 +543,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RatingTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happay.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -504,11 +559,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RatingTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -524,11 +575,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RatingTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -543,11 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RatingTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -562,11 +605,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RatingTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.RatingTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
