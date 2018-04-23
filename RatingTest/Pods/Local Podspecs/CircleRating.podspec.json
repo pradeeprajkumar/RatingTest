@@ -1,6 +1,6 @@
 {
   "name": "CircleRating",
-  "version": "1.0",
+  "version": "1.0.1",
   "summary": "Circle Rating is a sample framework for using the rating view in circles",
   "homepage": "https://github.com/pradeeprajkumar/CircleRating",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/pradeeprajkumar/CircleRating.git",
-    "tag": "1.0"
+    "tag": "1.0.1"
   },
   "ios": {
     "vendored_frameworks": "CircleRating.framework"
