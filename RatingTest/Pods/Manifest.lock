@@ -1,5 +1,5 @@
 PODS:
-  - CircleRating (1.0.1)
+  - CircleRating (1.0.4)
 
 DEPENDENCIES:
   - CircleRating (from `https://github.com/pradeeprajkumar/CircleRating.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   CircleRating:
-    :commit: 27bbc025c74ea46eeea14b1d53de7c2a87ae3872
+    :commit: f34a5a1256091ecf57bf475dcaa1187cc6fffc84
     :git: https://github.com/pradeeprajkumar/CircleRating.git
 
 SPEC CHECKSUMS:
-  CircleRating: c21eaecd83529ac5842de4d984f525b0006c50cc
+  CircleRating: 5ff4ea4fcc3fcf51214c97229e687b8dd10cc8a8
 
 PODFILE CHECKSUM: 7b77bd5c0bec7105c3690280760bb8bda19d17b5
 
